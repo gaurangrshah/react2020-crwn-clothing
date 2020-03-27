@@ -7,7 +7,7 @@ export const HomePage = () => {
         <div className="menu-item">
           <div className="content">
             <h1 className="title">HATS</h1>
-            <span className="subtitle">SHOP NOW</span>
+            <span className="subtitle">TEST NOW</span>
           </div>
         </div>
       </div>
