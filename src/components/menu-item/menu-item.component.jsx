@@ -1,12 +1,15 @@
 import React from 'react';
-
 import './menu-item.styles.scss';
 
+// destructure expected props inline:
 const MenuItem = ({ title, imageUrl, size }) => (
+  // size is a string that helps set the class '.large'
   <div className={`${size} menu-item`}>
     <div
+      // applies bckg-img default styles
       className='background-image'
       style={{
+        // defines bckg-img dynamically
         backgroundImage: `url(${imageUrl})`
       }}
     />

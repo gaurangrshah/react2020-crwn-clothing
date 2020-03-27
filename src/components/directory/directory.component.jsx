@@ -9,7 +9,7 @@ class Directory extends React.Component {
     super();
 
     this.state = {
-      sections: [
+      sections: [ // array of objects for each menu-item
         {
           title: 'hats',
           imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
@@ -45,6 +45,7 @@ class Directory extends React.Component {
     return (
       <div className='directory-menu'>
         {this.state.sections.map(({ title, imageUrl, id, size }) => (
+          // pass inline destructured properties for each item on the [sections] into <MenuItem />
           <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />
         ))}
       </div>
