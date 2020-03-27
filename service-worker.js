@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react2020-crwn-clothing/precache-manifest.7b35441dcce817763570ac25c357a344.js"
+  "/react2020-crwn-clothing/precache-manifest.57e44fb73ae0fce2d00ab38665ccc200.js"
 );
 
 self.addEventListener('message', (event) => {
