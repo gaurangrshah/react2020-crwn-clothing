@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/gaurangrshah/react2020-crwn-clothing",
+  "homepage": "https://gaurangrshah.github.io/react2020-crwn-clothing/",
   "name": "crwn-clothes",
   "version": "0.1.0",
   "private": true,
@@ -16,8 +16,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
