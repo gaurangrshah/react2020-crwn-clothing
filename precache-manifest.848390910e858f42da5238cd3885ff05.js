@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f5394efdfd855abde48025d6a44d6257",
+    "revision": "18c0091c18138256373758a6ee1eb5dd",
     "url": "/react2020-crwn-clothing/index.html"
   },
   {
-    "revision": "3d66d0821a71845ec112",
+    "revision": "b479a250feffc6b5c373",
     "url": "/react2020-crwn-clothing/static/css/main.581ee52a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react2020-crwn-clothing/static/js/2.9a405b56.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3d66d0821a71845ec112",
-    "url": "/react2020-crwn-clothing/static/js/main.996400c3.chunk.js"
+    "revision": "b479a250feffc6b5c373",
+    "url": "/react2020-crwn-clothing/static/js/main.63d3741f.chunk.js"
   },
   {
     "revision": "af26f24b83905055f18e",
